@@ -1,0 +1,669 @@
+[12/21/2022 06:49:34] Debug: Session id: a4544f6b-406f-48f0-a911-d63e018c7b2d
+[12/21/2022 06:49:34] Debug: Execution id: e5f3da9e-27fb-47f9-b272-4c12dcd543f6
+[12/21/2022 06:49:35] Info: Starting to analyze the input path '/tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources'...
+[12/21/2022 06:49:35] Info: Found 1 PYTHON files with a total size of 0.84KB
+[12/21/2022 06:49:35] Info: Found 0 PYTHON files
+[12/21/2022 06:49:35] Info: Found 0 TOTAL files
+[12/21/2022 06:49:35] Info: Starting the parsing process of 1 file with 0.84KB of code, this might take a while...
+[12/21/2022 06:49:36] Info: EFProcess 638072021767477113 started
+[12/21/2022 06:49:36] Debug: TaskParam customMapDirectoryPath = 
+[12/21/2022 06:49:36] Debug: TaskParam mappingDictionaries = Mobilize.SparkCommon.TransformationCore.MappingDictionaries
+[12/21/2022 06:49:36] Debug: TaskParam LoadMappingsTask.Enabled = True
+[12/21/2022 06:49:36] Debug: TaskParam Repository = Value is not created.
+[12/21/2022 06:49:36] Debug: TaskParam RepositoryDirectory = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/.mobilize/CommonEF
+[12/21/2022 06:49:37] Debug: TaskParam filesToProcess = 
+[12/21/2022 06:49:37] Debug: TaskParam parsedFilesCount = 0
+[12/21/2022 06:49:37] Debug: TaskParam parsingProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[12/21/2022 06:49:37] Debug: TaskParam processingProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[12/21/2022 06:49:37] Debug: TaskParam transformationVisitors = Value is not created.
+[12/21/2022 06:49:37] Debug: TaskParam ConversionBeginTask.Input = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources/input.wsp
+[12/21/2022 06:49:37] Debug: TaskParam workingSet = Value is not created.
+[12/21/2022 06:49:37] Debug: TaskParam ConversionBeginTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[12/21/2022 06:49:37] Debug: TaskParam ConversionBeginTask.Enabled = True
+[12/21/2022 06:49:37] Debug: TaskParam Repository = Value is not created.
+[12/21/2022 06:49:37] Debug: TaskParam RepositoryDirectory = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/.mobilize/CommonEF
+[12/21/2022 06:49:37] Info: Step 2/8 - Loading Code: STARTED
+[12/21/2022 06:49:37] Info: Step 2/8 - Loading Code: COMPLETED
+[12/21/2022 06:49:37] Debug: TaskParam inputPath = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources
+[12/21/2022 06:49:37] Debug: TaskParam outputPath = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/Output/PythonSnowConvert
+[12/21/2022 06:49:37] Debug: TaskParam projectId = Sources
+[12/21/2022 06:49:37] Debug: TaskParam ExecutionModeValue = Assessment
+[12/21/2022 06:49:37] Debug: TaskParam codeModelWriter = Mobilize.Common.AssessmentModel.Writer.CodeModelWriter
+[12/21/2022 06:49:37] Debug: TaskParam ParsingErrorsTask.Input = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources/input.wsp
+[12/21/2022 06:49:37] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[12/21/2022 06:49:37] Debug: TaskParam ParsingErrorsTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[12/21/2022 06:49:37] Debug: TaskParam ParsingErrorsTask.Enabled = True
+[12/21/2022 06:49:37] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/21/2022 06:49:37] Debug: TaskParam RepositoryDirectory = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/.mobilize/CommonEF
+[12/21/2022 06:49:37] Info: Register Ewi - IssueCode: SPRKPY1001 IssueDescription: This code section has parsing errors, so it was commented out
+[12/21/2022 06:49:37] Error: File: /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources/download_nrlist/download_nrlist.py has parsing errors
+[12/21/2022 06:49:37] Debug: TaskParam filesToProcess = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources/download_nrlist/download_nrlist.py
+[12/21/2022 06:49:37] Debug: TaskParam codeModelWriter = Mobilize.Common.AssessmentModel.Writer.CodeModelWriter
+[12/21/2022 06:49:37] Debug: TaskParam inputPath = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources
+[12/21/2022 06:49:37] Debug: TaskParam rootOutputPath = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36
+[12/21/2022 06:49:37] Debug: TaskParam projectId = Sources
+[12/21/2022 06:49:37] Debug: TaskParam shouldGenerateDump = False
+[12/21/2022 06:49:37] Debug: TaskParam SymbolTableLoaderTask.Enabled = True
+[12/21/2022 06:49:37] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/21/2022 06:49:37] Debug: TaskParam RepositoryDirectory = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/.mobilize/CommonEF
+[12/21/2022 06:49:37] Info: Step 4/8 - Load Symbol Table: STARTED
+[12/21/2022 06:49:38] Info:   Iteration: 0 Phase: Visit_1: STARTED
+[12/21/2022 06:49:38] Info:     Processing file _decimal
+[12/21/2022 06:49:38] Info:     Processing file _typeshed.__init__
+[12/21/2022 06:49:38] Info:     Processing file $builtins_databricks
+[12/21/2022 06:49:38] Info:     Processing file $builtins_pyspark
+[12/21/2022 06:49:38] Info:     Processing file $builtins
+[12/21/2022 06:49:38] Info:     Processing file abc
+[12/21/2022 06:49:38] Info:     Processing file argparse
+[12/21/2022 06:49:38] Info:     Processing file collections.abc
+[12/21/2022 06:49:38] Info:     Processing file collections
+[12/21/2022 06:49:38] Info:     Processing file datetime
+[12/21/2022 06:49:38] Info:     Processing file dateutil.relativedelta
+[12/21/2022 06:49:38] Info:     Processing file decimal
+[12/21/2022 06:49:38] Info:     Processing file glob
+[12/21/2022 06:49:38] Info:     Processing file os.__init__
+[12/21/2022 06:49:38] Info:     Processing file shutil
+[12/21/2022 06:49:38] Info:     Processing file socketserver
+[12/21/2022 06:49:38] Info:     Processing file sys
+[12/21/2022 06:49:38] Info:     Processing file time
+[12/21/2022 06:49:38] Info:     Processing file typing_extensions
+[12/21/2022 06:49:38] Info:     Processing file typing
+[12/21/2022 06:49:38] Info:   Iteration: 0 Phase: Visit_1: COMPLETED
+[12/21/2022 06:49:38] Info:   Iteration: 1 Phase: Visit_2: STARTED
+[12/21/2022 06:49:38] Info:     Processing file _decimal
+[12/21/2022 06:49:38] Info:     Processing file _typeshed.__init__
+[12/21/2022 06:49:38] Info:     Processing file $builtins_databricks
+[12/21/2022 06:49:38] Info:     Processing file $builtins_pyspark
+[12/21/2022 06:49:38] Info:     Processing file $builtins
+[12/21/2022 06:49:38] Info:     Processing file abc
+[12/21/2022 06:49:38] Info:     Processing file argparse
+[12/21/2022 06:49:38] Info:     Processing file collections.abc
+[12/21/2022 06:49:38] Info:     Processing file collections
+[12/21/2022 06:49:38] Info:     Processing file datetime
+[12/21/2022 06:49:38] Info:     Processing file dateutil.relativedelta
+[12/21/2022 06:49:38] Info:     Processing file decimal
+[12/21/2022 06:49:38] Info:     Processing file glob
+[12/21/2022 06:49:38] Info:     Processing file os.__init__
+[12/21/2022 06:49:38] Info:     Processing file shutil
+[12/21/2022 06:49:38] Info:     Processing file socketserver
+[12/21/2022 06:49:38] Info:     Processing file sys
+[12/21/2022 06:49:38] Info:     Processing file time
+[12/21/2022 06:49:38] Info:     Processing file typing_extensions
+[12/21/2022 06:49:38] Info:     Processing file typing
+[12/21/2022 06:49:38] Info:   Iteration: 1 Phase: Visit_2: COMPLETED
+[12/21/2022 06:49:38] Info:   Iteration: 2 Phase: Visit_2: STARTED
+[12/21/2022 06:49:38] Info:     Processing file _decimal
+[12/21/2022 06:49:38] Info:     Processing file _typeshed.__init__
+[12/21/2022 06:49:38] Info:     Processing file $builtins_databricks
+[12/21/2022 06:49:38] Info:     Processing file $builtins_pyspark
+[12/21/2022 06:49:38] Info:     Processing file $builtins
+[12/21/2022 06:49:38] Info:     Processing file abc
+[12/21/2022 06:49:38] Info:     Processing file argparse
+[12/21/2022 06:49:38] Info:     Processing file collections.abc
+[12/21/2022 06:49:38] Info:     Processing file collections
+[12/21/2022 06:49:38] Info:     Processing file datetime
+[12/21/2022 06:49:38] Info:     Processing file dateutil.relativedelta
+[12/21/2022 06:49:38] Info:     Processing file decimal
+[12/21/2022 06:49:38] Info:     Processing file glob
+[12/21/2022 06:49:38] Info:     Processing file os.__init__
+[12/21/2022 06:49:38] Info:     Processing file shutil
+[12/21/2022 06:49:38] Info:     Processing file socketserver
+[12/21/2022 06:49:38] Info:     Processing file sys
+[12/21/2022 06:49:38] Info:     Processing file time
+[12/21/2022 06:49:38] Info:     Processing file typing_extensions
+[12/21/2022 06:49:38] Info:     Processing file typing
+[12/21/2022 06:49:38] Info:   Iteration: 2 Phase: Visit_2: COMPLETED
+[12/21/2022 06:49:38] Info:   Iteration: 3 Phase: Visit_3: STARTED
+[12/21/2022 06:49:38] Info:     Processing file _decimal
+[12/21/2022 06:49:38] Info:     Processing file _typeshed.__init__
+[12/21/2022 06:49:38] Info:     Processing file $builtins_databricks
+[12/21/2022 06:49:38] Info:     Processing file $builtins_pyspark
+[12/21/2022 06:49:38] Info:     Processing file $builtins
+[12/21/2022 06:49:38] Info:     Processing file abc
+[12/21/2022 06:49:38] Info:     Processing file argparse
+[12/21/2022 06:49:38] Info:     Processing file collections.abc
+[12/21/2022 06:49:38] Info:     Processing file collections
+[12/21/2022 06:49:38] Info:     Processing file datetime
+[12/21/2022 06:49:38] Info:     Processing file dateutil.relativedelta
+[12/21/2022 06:49:38] Info:     Processing file decimal
+[12/21/2022 06:49:38] Info:     Processing file glob
+[12/21/2022 06:49:38] Info:     Processing file os.__init__
+[12/21/2022 06:49:38] Info:     Processing file shutil
+[12/21/2022 06:49:38] Info:     Processing file socketserver
+[12/21/2022 06:49:38] Info:     Processing file sys
+[12/21/2022 06:49:38] Info:     Processing file time
+[12/21/2022 06:49:38] Info:     Processing file typing_extensions
+[12/21/2022 06:49:38] Info:     Processing file typing
+[12/21/2022 06:49:38] Info:   Iteration: 3 Phase: Visit_3: COMPLETED
+[12/21/2022 06:49:41] Info:   Iteration: 0 Phase: Visit_1: STARTED
+[12/21/2022 06:49:41] Info:     Processing file pandas.__init__
+[12/21/2022 06:49:41] Info:     Processing file py4j.java_gateway
+[12/21/2022 06:49:41] Info:     Processing file pyspark.__init__
+[12/21/2022 06:49:41] Info:     Processing file pyspark._typing
+[12/21/2022 06:49:41] Info:     Processing file pyspark.accumulators
+[12/21/2022 06:49:41] Info:     Processing file pyspark.broadcast
+[12/21/2022 06:49:41] Info:     Processing file pyspark.conf
+[12/21/2022 06:49:41] Info:     Processing file pyspark.context
+[12/21/2022 06:49:41] Info:     Processing file pyspark.files
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml._typing
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.base
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.classification
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.clustering
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.common
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.evaluation
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.feature
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.fpm
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.functions
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.image
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.linalg.__init__
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.param.__init__
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.param._shared_params_code_gen
+[12/21/2022 06:49:41] Info:     Processing file pyspark.ml.param.shared
+[12/21/2022 06:49:42] Info:     Processing file pyspark.ml.pipeline
+[12/21/2022 06:49:42] Info:     Processing file pyspark.ml.recommendation
+[12/21/2022 06:49:42] Info:     Processing file pyspark.ml.regression
+[12/21/2022 06:49:42] Info:     Processing file pyspark.ml.stat
+[12/21/2022 06:49:42] Info:     Processing file pyspark.ml.tree
+[12/21/2022 06:49:42] Info:     Processing file pyspark.ml.tuning
+[12/21/2022 06:49:42] Info:     Processing file pyspark.ml.util
+[12/21/2022 06:49:42] Info:     Processing file pyspark.ml.wrapper
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib._typing
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.classification
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.clustering
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.common
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.evaluation
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.feature
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.fpm
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.linalg.__init__
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.linalg.distributed
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.random
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.recommendation
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.regression
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.stat.__init__
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.stat._statistics
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.stat.distribution
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.stat.KernelDensity
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.stat.test
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.tree
+[12/21/2022 06:49:42] Info:     Processing file pyspark.mllib.util
+[12/21/2022 06:49:42] Info:     Processing file pyspark.pandas.frame
+[12/21/2022 06:49:42] Info:     Processing file pyspark.profiler
+[12/21/2022 06:49:42] Info:     Processing file pyspark.rdd
+[12/21/2022 06:49:42] Info:     Processing file pyspark.resultiterable
+[12/21/2022 06:49:42] Info:     Processing file pyspark.serializers
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql.__init__
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql._typing
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql.avro.functions
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql.catalog
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql.column
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql.conf
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql.context
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql.dataframe
+[12/21/2022 06:49:42] Info:     Processing file pyspark.sql.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.group
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.series
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.conversion
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.group_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.map_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.readwriter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.session
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.streaming
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.types
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.udf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.window
+[12/21/2022 06:49:43] Info:     Processing file pyspark.statcounter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.status
+[12/21/2022 06:49:43] Info:     Processing file pyspark.storagelevel
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.dstream
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.kinesis
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.listener
+[12/21/2022 06:49:43] Info:     Processing file pyspark.taskcontext
+[12/21/2022 06:49:43] Info:     Processing file pyspark.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.version
+[12/21/2022 06:49:43] Info:   Iteration: 0 Phase: Visit_1: COMPLETED
+[12/21/2022 06:49:43] Info:   Iteration: 1 Phase: Visit_2: STARTED
+[12/21/2022 06:49:43] Info:     Processing file pandas.__init__
+[12/21/2022 06:49:43] Info:     Processing file py4j.java_gateway
+[12/21/2022 06:49:43] Info:     Processing file pyspark.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.accumulators
+[12/21/2022 06:49:43] Info:     Processing file pyspark.broadcast
+[12/21/2022 06:49:43] Info:     Processing file pyspark.conf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.files
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.base
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.classification
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.clustering
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.common
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.evaluation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.feature
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.fpm
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.image
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.linalg.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param._shared_params_code_gen
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param.shared
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.pipeline
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.recommendation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.regression
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.stat
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.tree
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.tuning
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.wrapper
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.classification
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.clustering
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.common
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.evaluation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.feature
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.fpm
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.linalg.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.linalg.distributed
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.random
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.recommendation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.regression
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat._statistics
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.distribution
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.KernelDensity
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.test
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.tree
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.pandas.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.profiler
+[12/21/2022 06:49:43] Info:     Processing file pyspark.rdd
+[12/21/2022 06:49:43] Info:     Processing file pyspark.resultiterable
+[12/21/2022 06:49:43] Info:     Processing file pyspark.serializers
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.avro.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.catalog
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.column
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.conf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.dataframe
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.group
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.series
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.conversion
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.group_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.map_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.readwriter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.session
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.streaming
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.types
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.udf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.window
+[12/21/2022 06:49:43] Info:     Processing file pyspark.statcounter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.status
+[12/21/2022 06:49:43] Info:     Processing file pyspark.storagelevel
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.dstream
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.kinesis
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.listener
+[12/21/2022 06:49:43] Info:     Processing file pyspark.taskcontext
+[12/21/2022 06:49:43] Info:     Processing file pyspark.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.version
+[12/21/2022 06:49:43] Info:   Iteration: 1 Phase: Visit_2: COMPLETED
+[12/21/2022 06:49:43] Info:   Iteration: 2 Phase: Visit_2: STARTED
+[12/21/2022 06:49:43] Info:     Processing file pandas.__init__
+[12/21/2022 06:49:43] Info:     Processing file py4j.java_gateway
+[12/21/2022 06:49:43] Info:     Processing file pyspark.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.accumulators
+[12/21/2022 06:49:43] Info:     Processing file pyspark.broadcast
+[12/21/2022 06:49:43] Info:     Processing file pyspark.conf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.files
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.base
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.classification
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.clustering
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.common
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.evaluation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.feature
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.fpm
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.image
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.linalg.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param._shared_params_code_gen
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param.shared
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.pipeline
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.recommendation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.regression
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.stat
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.tree
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.tuning
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.wrapper
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.classification
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.clustering
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.common
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.evaluation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.feature
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.fpm
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.linalg.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.linalg.distributed
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.random
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.recommendation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.regression
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat._statistics
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.distribution
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.KernelDensity
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.test
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.tree
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.pandas.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.profiler
+[12/21/2022 06:49:43] Info:     Processing file pyspark.rdd
+[12/21/2022 06:49:43] Info:     Processing file pyspark.resultiterable
+[12/21/2022 06:49:43] Info:     Processing file pyspark.serializers
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.avro.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.catalog
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.column
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.conf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.dataframe
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.group
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.series
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.conversion
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.group_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.map_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.readwriter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.session
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.streaming
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.types
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.udf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.window
+[12/21/2022 06:49:43] Info:     Processing file pyspark.statcounter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.status
+[12/21/2022 06:49:43] Info:     Processing file pyspark.storagelevel
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.dstream
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.kinesis
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.listener
+[12/21/2022 06:49:43] Info:     Processing file pyspark.taskcontext
+[12/21/2022 06:49:43] Info:     Processing file pyspark.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.version
+[12/21/2022 06:49:43] Info:   Iteration: 2 Phase: Visit_2: COMPLETED
+[12/21/2022 06:49:43] Info:   Iteration: 3 Phase: Visit_3: STARTED
+[12/21/2022 06:49:43] Info:     Processing file pandas.__init__
+[12/21/2022 06:49:43] Info:     Processing file py4j.java_gateway
+[12/21/2022 06:49:43] Info:     Processing file pyspark.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.accumulators
+[12/21/2022 06:49:43] Info:     Processing file pyspark.broadcast
+[12/21/2022 06:49:43] Info:     Processing file pyspark.conf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.files
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.base
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.classification
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.clustering
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.common
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.evaluation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.feature
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.fpm
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.image
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.linalg.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param._shared_params_code_gen
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param.shared
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.pipeline
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.recommendation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.regression
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.stat
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.tree
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.tuning
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.wrapper
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.classification
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.clustering
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.common
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.evaluation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.feature
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.fpm
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.linalg.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.linalg.distributed
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.random
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.recommendation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.regression
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat._statistics
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.distribution
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.KernelDensity
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.test
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.tree
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.pandas.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.profiler
+[12/21/2022 06:49:43] Info:     Processing file pyspark.rdd
+[12/21/2022 06:49:43] Info:     Processing file pyspark.resultiterable
+[12/21/2022 06:49:43] Info:     Processing file pyspark.serializers
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.avro.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.catalog
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.column
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.conf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.dataframe
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.group
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.series
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.conversion
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.group_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.map_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.readwriter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.session
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.streaming
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.types
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.udf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.window
+[12/21/2022 06:49:43] Info:     Processing file pyspark.statcounter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.status
+[12/21/2022 06:49:43] Info:     Processing file pyspark.storagelevel
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.dstream
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.kinesis
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.listener
+[12/21/2022 06:49:43] Info:     Processing file pyspark.taskcontext
+[12/21/2022 06:49:43] Info:     Processing file pyspark.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.version
+[12/21/2022 06:49:43] Info:   Iteration: 3 Phase: Visit_3: COMPLETED
+[12/21/2022 06:49:43] Info:   Iteration: 4 Phase: Visit_4: STARTED
+[12/21/2022 06:49:43] Info:     Processing file pandas.__init__
+[12/21/2022 06:49:43] Info:     Processing file py4j.java_gateway
+[12/21/2022 06:49:43] Info:     Processing file pyspark.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.accumulators
+[12/21/2022 06:49:43] Info:     Processing file pyspark.broadcast
+[12/21/2022 06:49:43] Info:     Processing file pyspark.conf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.files
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.base
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.classification
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.clustering
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.common
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.evaluation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.feature
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.fpm
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.image
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.linalg.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param._shared_params_code_gen
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.param.shared
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.pipeline
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.recommendation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.regression
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.stat
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.tree
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.tuning
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.ml.wrapper
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.classification
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.clustering
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.common
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.evaluation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.feature
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.fpm
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.linalg.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.linalg.distributed
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.random
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.recommendation
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.regression
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat._statistics
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.distribution
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.KernelDensity
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.stat.test
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.tree
+[12/21/2022 06:49:43] Info:     Processing file pyspark.mllib.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.pandas.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.profiler
+[12/21/2022 06:49:43] Info:     Processing file pyspark.rdd
+[12/21/2022 06:49:43] Info:     Processing file pyspark.resultiterable
+[12/21/2022 06:49:43] Info:     Processing file pyspark.serializers
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql._typing
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.avro.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.catalog
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.column
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.conf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.dataframe
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.group
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.__init__
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.frame
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas._typing.protocols.series
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.conversion
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.functions
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.group_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.pandas.map_ops
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.readwriter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.session
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.streaming
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.types
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.udf
+[12/21/2022 06:49:43] Info:     Processing file pyspark.sql.window
+[12/21/2022 06:49:43] Info:     Processing file pyspark.statcounter
+[12/21/2022 06:49:43] Info:     Processing file pyspark.status
+[12/21/2022 06:49:43] Info:     Processing file pyspark.storagelevel
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.context
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.dstream
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.kinesis
+[12/21/2022 06:49:43] Info:     Processing file pyspark.streaming.listener
+[12/21/2022 06:49:43] Info:     Processing file pyspark.taskcontext
+[12/21/2022 06:49:43] Info:     Processing file pyspark.util
+[12/21/2022 06:49:43] Info:     Processing file pyspark.version
+[12/21/2022 06:49:43] Info:   Iteration: 4 Phase: Visit_4: COMPLETED
+[12/21/2022 06:49:44] Info:   Iteration: 0 Phase: Visit_1: STARTED
+[12/21/2022 06:49:44] Info:     Processing file Sources.download_nrlist.download_nrlist
+[12/21/2022 06:49:44] Info:   Iteration: 0 Phase: Visit_1: COMPLETED
+[12/21/2022 06:49:44] Info:   Iteration: 1 Phase: Visit_2: STARTED
+[12/21/2022 06:49:44] Info:     Processing file Sources.download_nrlist.download_nrlist
+[12/21/2022 06:49:44] Info:   Iteration: 1 Phase: Visit_2: COMPLETED
+[12/21/2022 06:49:44] Info:   Iteration: 2 Phase: Visit_3: STARTED
+[12/21/2022 06:49:44] Info:     Processing file Sources.download_nrlist.download_nrlist
+[12/21/2022 06:49:44] Info:   Iteration: 2 Phase: Visit_3: COMPLETED
+[12/21/2022 06:49:44] Info: Step 4/8 - Load Symbol Table: COMPLETED
+[12/21/2022 06:49:44] Debug: TaskParam reportPath = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/Reports/PythonSnowConvert
+[12/21/2022 06:49:44] Debug: TaskParam sessionId = a4544f6b-406f-48f0-a911-d63e018c7b2d
+[12/21/2022 06:49:44] Debug: TaskParam preConversionAssessmentStorage = Mobilize.PythonSnow.Assessment.SparkUsagesInventoryStorage
+[12/21/2022 06:49:44] Debug: TaskParam importUsagesInventoryStorage = Mobilize.PythonSnow.Assessment.ImportUsagesInventoryStorage
+[12/21/2022 06:49:44] Debug: TaskParam packageVersionsInventoryStorage = Mobilize.PythonSnow.Assessment.PackageVersionsInventoryStorage
+[12/21/2022 06:49:44] Debug: TaskParam symbolTable = Mobilize.Python.SymbolTable.PySymbolTable
+[12/21/2022 06:49:44] Debug: TaskParam transformationVisitors = Value is not created.
+[12/21/2022 06:49:44] Debug: TaskParam inputPath = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources
+[12/21/2022 06:49:44] Debug: TaskParam mappingDictionaries = Mobilize.SparkCommon.TransformationCore.MappingDictionaries
+[12/21/2022 06:49:44] Debug: TaskParam conversionStatusData = Mobilize.SparkCommon.Assessment.ConversionStatus.ConversionStatusData
+[12/21/2022 06:49:44] Debug: TaskParam pyPackageSupportedData = Mobilize.PythonSnow.Assessment.PyPackageSupportedData
+[12/21/2022 06:49:44] Debug: TaskParam snowConvertCoreVersion = 2.0.203.0
+[12/21/2022 06:49:44] Debug: TaskParam projectId = Sources
+[12/21/2022 06:49:44] Debug: TaskParam PreConversionAssessmentTask.Input = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources/input.wsp
+[12/21/2022 06:49:44] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[12/21/2022 06:49:44] Debug: TaskParam PreConversionAssessmentTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[12/21/2022 06:49:44] Debug: TaskParam PreConversionAssessmentTask.Enabled = True
+[12/21/2022 06:49:44] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/21/2022 06:49:44] Debug: TaskParam RepositoryDirectory = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/.mobilize/CommonEF
+[12/21/2022 06:49:44] Info: Step 5/8 - Pre-Conversion Assessment: STARTED
+[12/21/2022 06:49:44] Info: Collecting PySpark usages from 'Sources.download_nrlist.download_nrlist' package in '/tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources/download_nrlist/download_nrlist.py' file.
+[12/21/2022 06:49:44] Info: Step 5/8 - Pre-Conversion Assessment: COMPLETED
+[12/21/2022 06:49:44] Debug: TaskParam inputPath = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources
+[12/21/2022 06:49:44] Debug: TaskParam outputPath = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/Output/PythonSnowConvert
+[12/21/2022 06:49:44] Debug: TaskParam ExecutionModeValue = Assessment
+[12/21/2022 06:49:44] Debug: TaskParam CopyOtherFilesTask.Enabled = True
+[12/21/2022 06:49:44] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/21/2022 06:49:44] Debug: TaskParam RepositoryDirectory = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/.mobilize/CommonEF
+[12/21/2022 06:49:44] Info: Step 6/8 - Copying other files: STARTED
+[12/21/2022 06:49:44] Info: Step 6/8 - Copying other files: COMPLETED
+[12/21/2022 06:49:44] Debug: TaskParam ExecutionModeValue = Assessment
+[12/21/2022 06:49:44] Debug: TaskParam codeModelWriter = Mobilize.Common.AssessmentModel.Writer.CodeModelWriter
+[12/21/2022 06:49:44] Debug: TaskParam symbolTable = Mobilize.Python.SymbolTable.PySymbolTable
+[12/21/2022 06:49:44] Debug: TaskParam inputPath = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources
+[12/21/2022 06:49:44] Debug: TaskParam outputPath = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/Output/PythonSnowConvert
+[12/21/2022 06:49:44] Debug: TaskParam processingProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[12/21/2022 06:49:44] Debug: TaskParam transformationVisitors = Artinsoft.Common.Tools.Transform.TransformationVisitors
+[12/21/2022 06:49:44] Debug: TaskParam conversionStatusData = Mobilize.SparkCommon.Assessment.ConversionStatus.ConversionStatusData
+[12/21/2022 06:49:44] Debug: TaskParam pyPackageSupportedData = Mobilize.PythonSnow.Assessment.PyPackageSupportedData
+[12/21/2022 06:49:44] Debug: TaskParam mappingDictionaries = Mobilize.SparkCommon.TransformationCore.MappingDictionaries
+[12/21/2022 06:49:44] Debug: TaskParam projectId = Sources
+[12/21/2022 06:49:44] Debug: TaskParam TransformationsTask.Input = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources/input.wsp
+[12/21/2022 06:49:44] Debug: TaskParam workingSet = Artinsoft.Common.Store.RepositoryWorkingSet`2[System.String,Artinsoft.Common.Store.IItemContainer]
+[12/21/2022 06:49:44] Debug: TaskParam TransformationsTask.ItemMedatada = Artinsoft.Common.Store.ItemMetadata
+[12/21/2022 06:49:44] Debug: TaskParam TransformationsTask.Enabled = True
+[12/21/2022 06:49:44] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/21/2022 06:49:44] Debug: TaskParam RepositoryDirectory = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/.mobilize/CommonEF
+[12/21/2022 06:49:44] Info: Step 7/8 - Conversion Execution: STARTED
+[12/21/2022 06:49:44] Info: Step 7/8 - Conversion Execution: COMPLETED
+[12/21/2022 06:49:44] Debug: TaskParam initialTime = 12/21/2022 06:49:35
+[12/21/2022 06:49:44] Debug: TaskParam preConversionAssessmentStorage = Mobilize.PythonSnow.Assessment.SparkUsagesInventoryStorage
+[12/21/2022 06:49:44] Debug: TaskParam importUsagesInventoryStorage = Mobilize.PythonSnow.Assessment.ImportUsagesInventoryStorage
+[12/21/2022 06:49:44] Debug: TaskParam issuesReader = Mobilize.PythonSnow.Common.IssuesReader
+[12/21/2022 06:49:44] Debug: TaskParam genericScannerReader = Mobilize.PythonSnow.Reports.GenericScannerReader
+[12/21/2022 06:49:44] Debug: TaskParam pythonSnowExecutionResult = Mobilize.PythonSnow.Configuration.Models.PythonSnowExecutionResult
+[12/21/2022 06:49:44] Debug: TaskParam assessmentManager = Mobilize.SparkCommon.Reports.AssessmentManager
+[12/21/2022 06:49:44] Debug: TaskParam usagesCalculator = Mobilize.SparkCommon.Reports.SparkUsagesCalculator
+[12/21/2022 06:49:44] Debug: TaskParam importsCalculator = Mobilize.SparkCommon.Reports.ImportUsagesCalculator
+[12/21/2022 06:49:44] Debug: TaskParam inputPath = /tmp/Repo-0bec3891-062b-4985-a650-0980966cca36/Sources
+[12/21/2022 06:49:44] Debug: TaskParam assessmentReportSummaryInformation = Mobilize.SparkCommon.Reports.AssessmentReportSummaryInformation
+[12/21/2022 06:49:44] Debug: TaskParam writeResultsProgressDescriptor = Mobilize.Common.Utils.Progress.SingleProgressDescriptor
+[12/21/2022 06:49:44] Debug: TaskParam snowConvertCoreVersion = 2.0.203.0
+[12/21/2022 06:49:44] Debug: TaskParam ConversionEndTask.Enabled = True
+[12/21/2022 06:49:44] Debug: TaskParam Repository = Artinsoft.Common.Store.Repository
+[12/21/2022 06:49:44] Debug: TaskParam RepositoryDirectory = /tmp/Output-0bec3891-062b-4985-a650-0980966cca36/.mobilize/CommonEF
+[12/21/2022 06:49:44] Info: Step 8/8 - Cleanup: STARTED
+[12/21/2022 06:49:44] Info: EFProcess 638072021767477113 ended. Excecution time: 00:00:08.0967361

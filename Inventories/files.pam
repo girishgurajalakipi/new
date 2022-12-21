@@ -1,0 +1,2 @@
+Path,Technology,FileKind,BinaryKind,Bytes,SupportedStatus
+/download_nrlist/download_nrlist.py,Python,SourceCodeFile,NotBinary,865,DoesNotApply,DoesNotApply
